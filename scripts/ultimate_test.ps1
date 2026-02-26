@@ -1,12 +1,12 @@
 $duration = 43200
 $interval = 5
 
-$configs = Get-ChildItem "../config/*.txt"
+$configs = Get-ChildItem "./config/*.txt"
 $targets = @("8.8.8.8","1.1.1.1","google.com")
 
 foreach ($config in $configs) {
 
-    $logfile = "../logs/" + $config.BaseName + "_" + (Get-Date -Format "yyyyMMdd_HHmm") + ".txt"
+    $logfile = "./logs/" + $config.BaseName + "_" + (Get-Date -Format "yyyyMMdd_HHmm") + ".txt"
 
     Add-Content $logfile "START"
     Add-Content $logfile "NETWORK = MANUAL (Set your SIM/WIFI before run)"
