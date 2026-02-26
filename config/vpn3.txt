@@ -1,0 +1,1 @@
+vless://5736c9c6-7441-4739-a011-56ad00b51786@k226.benioromi.com:443?type=ws&encryption=none&security=tls&path=/&host=#BW6

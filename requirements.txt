@@ -1,0 +1,4 @@
+numpy
+ping3
+speedtest-cli
+scipy
